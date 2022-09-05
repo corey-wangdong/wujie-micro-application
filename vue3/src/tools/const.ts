@@ -1,0 +1,5 @@
+export enum  SERVER_PORT {
+  "PORT_70001"='70001',
+  "PORT_70002"='70002',
+  "PORT_70003"='70003',
+}
