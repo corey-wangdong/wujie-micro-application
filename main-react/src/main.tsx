@@ -9,11 +9,13 @@ import { getAppConfigure } from './tools/utils';
 const { setupApp } = WujieReact;
 
 // 子应用 1
-setupApp(getAppConfigure(AppName.React16));
+setupApp(getAppConfigure(AppName.React18));
 
 // 子应用 2
-setupApp(getAppConfigure(AppName.React17));
+setupApp(getAppConfigure(AppName.Vue3));
 
+// 子应用 3
+setupApp(getAppConfigure(AppName.Vue2));
 
 const app = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 app.render(

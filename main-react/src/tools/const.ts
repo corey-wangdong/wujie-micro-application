@@ -1,9 +1,11 @@
 export enum AppName {
-  "React16"='React16',
-  "React17"='React17',
+  "React18"='React18',
+  "Vue3" = 'Vue3',
+  "Vue2" = 'Vue2'
 }
 
 export enum  AppHost {
-  "React16"='//localhost:8100/',
-  "React17"='//localhost:8200/'
+  "React18"='//localhost:5174/',
+  "Vue3"='//localhost:5175/',
+  "Vue2"='//localhost:7200/',
 }

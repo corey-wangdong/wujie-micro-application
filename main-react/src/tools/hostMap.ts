@@ -4,8 +4,9 @@ interface IMap {
   [key:string]: string
 }
 const map:IMap = {
-  [AppHost.React16]: "//wujie-micro.github.io/demo-react16/",
-  [AppHost.React17]: "//wujie-micro.github.io/demo-react17/",
+  [AppHost.React18]: "//wujie-micro.github.io/demo-react18/",
+  [AppHost.Vue3]: "//wujie-micro.github.io/demo-vue3/",
+  [AppHost.Vue2]: "//wujie-micro.github.io/demo-react17/",
 };
 
 export default function hostMap(host: string) {
